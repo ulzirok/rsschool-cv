@@ -1,7 +1,7 @@
-# 👩‍💻 Ulzira Perdebayeva
+# Ulzira Perdebayeva 👩‍💻
 
 ## 📞 Contact Info:
-- 📍 **Location:** Tashkent, Uzbekistan
+- **Location:** Tashkent, Uzbekistan
 - **GitHub:** [github.com/ulzirok](https://github.com/ulzirok)
 - **Email:** ulzirok@gmail.com
 - **Telegram:** @ulzirok
@@ -21,7 +21,7 @@ I am a beginner front-end developer with a background in accounting and a degree
 - VS Code
 - Figma, Adobe Photoshop
 - Gulp
-- 🧩 Rolling Scopes School Stage 0 — in progress
+- Rolling Scopes School Stage 0 — in progress 🧩
 
 ---
 
