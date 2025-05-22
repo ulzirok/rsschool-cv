@@ -1,1 +1,2 @@
-# [rsschool-cv](https://ulzirok.github.io/rsschool-cv/)
+- https://ulzirok.github.io/rsschool-cv/cv
+- https://ulzirok.github.io/rsschool-cv/
