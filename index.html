@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>CV-Ulzira</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+  <header class="header section__container">
+    <div class="header__inner container">
+      <div class="wrap-circle">
+        <div class="circle-inside">
+          <img src="images/avatar.jpg" alt="Profile picture" class="header__img" width="150" height="150"
+            loading="lazy">
+        </div>
+      </div>
+      <div class="header__name">
+        <h1>Ulzira Perdebayeva</h1>
+        <p class="header__description">front-end developer</p>
+      </div>
+      <address class="header-contacts">
+        <p class="header-contacts__location">
+          Location: Tashkent, Uzbekistan
+        </p>
+        <p class="header-contacts__git">
+          Github:
+          <a href="https://github.com/ulzirok" class="header-contacts__link">github.com/ulzirok</a>
+        </p>
+        <p class="header-contacts__mail">
+          Email:
+          <a href="mailto:ulzirok@gmail.com" class="header-contacts__link">ulzirok@gmail.com</a>
+        </p>
+      </address>
+    </div>
+  </header>
+  <nav class="header__menu nav">
+    <div class="container">
+      <ul class="header__menu-list">
+        <li class="header__menu-item">
+          <a href="#about" class="header__menu-link">About me</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#skills" class="header__menu-link">Skills</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#education" class="header__menu-link">Education</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#code" class="header__menu-link">Code Example</a>
+        </li>
+        <li class="header__menu-item">
+          <a href="#languages" class="header__menu-link">Languages</a>
+        </li>
+      </ul>
+    </div>
+  </nav>
+  <main>
+    <section id="about" class="about-me section__container">
+      <div class="container">
+        <h2>About me</h2>
+        <p class="about-me__description">
+          I am a beginner front-end developer with a background in accounting and a degree in Information Technology.
+          Although my university education included limited practical IT training, I’ve always been interested in
+          technology and wanted to switch to IT. After several years of working as an accountant, I decided to follow my
+          passion and start a new career in web development.
+        </p>
+      </div>
+    </section>
+    <section id="skills" class="skills section__container">
+      <div class="container">
+        <h2>Skills</h2>
+        <ul class="skills__menu-list">
+          <li class="skills__menu-item">
+            HTML5, CSS3
+          </li>
+          <li class="skills__menu-item">
+            BEM methodology, SCSS
+          </li>
+          <li class="skills__menu-item">
+            JavaScript basics
+          </li>
+          <li class="skills__menu-item">
+            Git, GitHub
+          </li>
+          <li class="skills__menu-item">
+            VS Code
+          </li>
+          <li class="skills__menu-item">
+            Gulp
+          </li>
+          <li class="skills__menu-item">
+            Figma, Adobe Photoshop
+          </li>
+          <li class="skills__menu-item">
+            Rolling Scopes School Stage 0 — in progress
+          </li>
+        </ul>
+      </div>
+    </section>
+    <section id="education" class="education section__container">
+      <div class="container">
+        <h2>Education</h2>
+        <div class="education__body">
+          <h3>University:</h3>
+          <ul class="education__menu-list">
+            <li class="education__menu-item">
+              Tashkent State University of Economics, Computer Science and Information Technology
+            </li>
+          </ul>
+          <h3>Courses:</h3>
+          <ul class="education__menu-list">
+            <li class="education__menu-item">
+              Frontend development <a href="https://proweb.uz/uz/courses/web-development"
+                class="education__menu-link">(proweb.uz)</a>
+            </li>
+            <li class="education__menu-item">
+              HTML by Alexander Lamkov <a
+                href="https://www.youtube.com/watch?v=yE4Rlp0OeVc&list=PL0MUAHwery4ot0KmgGxlBSB7rXssLeA6h"
+                class="education__menu-link">(youtube.com/@AleksanderLamkov)</a>
+            </li>
+            <li class="education__menu-item">
+              CSS by Alexander Lamkov <a
+                href="https://www.youtube.com/watch?v=PEQ3i9q3ez8&list=PL0MUAHwery4o9I7QQVj_RP4ZVpmdx6evz"
+                class="education__menu-link">(youtube.com/@AleksanderLamkov)</a>
+            </li>
+            <li class="education__menu-item">
+              JavaScript for Beginners by Alexander Lamkov <a
+                href="https://www.youtube.com/watch?v=nCgFdChjnds&list=PL0MUAHwery4qn4Y27iUxmzC-JiauX7vSL"
+                class="education__menu-link">(youtube.com/@AleksanderLamkov)</a>
+            </li>
+            <li class="education__menu-item">
+              JavaScript Manual <a href="https://learn.javascript.ru/first-steps"
+                class="education__menu-link">(learnjavascript.ru)</a>
+            </li>
+            <li class="education__menu-item">
+              RS Schools Course «JavaScript/Front-end. Stage 0» (in progress) <a
+                href="https://rs.school/courses/javascript-ru" class="education__menu-link">(rs.school)</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+    <section id="code" class="code section__container">
+      <div class="container">
+        <h2>Code Example</h2>
+        <p class="code__description">
+          <span>Calculate average:</span> Write a function which calculates the average of the numbers in a given array.
+        </p>
+        <div class="code__body">
+          <pre>
+          <code>
+            <span class="name-red">function</span> <span class="name-violet">findAverage</span>(array) {
+              <span class="name-red">return</span> array.<span class="name-violet">reduce</span>((acc, num) <span class="name-blue">=></span> {
+                <span class="name-red">return</span> acc <span class="name-blue">+</span> num <span class="name-blue">/</span> array.<span class="name-blue">length</span>
+              }, <span class="name-blue">0</span>)
+            }
+          </code>
+        </pre>
+        </div>
+      </div>
+    </section>
+    <section id="languages" class="languages section__container">
+      <div class="container">
+        <h2>Languages</h2>
+        <ul class="languages__menu-list">
+          <li class="languages__menu-item">
+            English - A2 (pre-intermediate)
+          </li>
+          <li class="languages__menu-item">
+            Russian - Intermediate
+          </li>
+          <li class="languages__menu-item">
+            Karakalpak - Native
+          </li>
+          <li class="languages__menu-item">
+            Uzbek - Intermediate
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class="footer section__container">
+    <div class="footer-top">
+      <div class="container">
+        <div class="footer__footer-body">
+          <a href="https://rs.school/courses/javascript-ru" class="footer-body__logo">
+            <img src="images/rs-school-logo.svg" alt="Footer-logo" width="95" height="35">
+          </a>
+          <div class="footer-body__soc1als">
+            <a href="https://github.com/ulzirok" class="footer-body__link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.11.82-.26.82-.577v-2.234c-3.338.724-4.033-1.416-4.033-1.416-.546-1.386-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.085 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.996.107-.775.42-1.305.763-1.605-2.665-.3-5.466-1.334-5.466-5.933 0-1.31.47-2.38 1.235-3.22-.123-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.552 3.296-1.23 3.296-1.23.654 1.653.242 2.873.12 3.176.77.84 1.233 1.91 1.233 3.22 0 4.61-2.804 5.63-5.475 5.922.432.372.816 1.1.816 2.22v3.293c0 .32.218.694.825.576C20.565 21.795 24 17.295 24 12c0-6.63-5.373-12-12-12z" />
+              </svg>
+            </a>
+            <a href="mailto:ulzirok@gmail.com" class="footer-body__link">
+              <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
+                <path
+                  d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8l8 5 8-5v10H4z" />
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      <div class="footer__copyright">
+        © Ulzira Perdebayeva, <time datetime="2025">2025</time>
+      </div>
+    </div>
+  </footer>
+
+</body>
+
+</html>

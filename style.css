@@ -1,0 +1,409 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* outline: 1px solid red; */
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+  font-size: 18px;
+  line-height: 1.28;
+  background-color: #fff;
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+  transition: 0.3s;
+}
+
+a:hover {
+  color: #b9ff66;
+}
+
+h1 {
+  font-size: 35px;
+}
+
+h2 {
+  font-size: 30px;
+  font-weight: 500;
+  padding: 7px;
+  background-color: #b9ff66;
+  display: inline-block;
+  border-radius: 7px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.28;
+}
+
+.container,
+.section__container {
+  max-width: 1440px;
+  width: 100%;
+  margin: 0 auto;
+  color: #191a23;
+}
+
+.section__container {
+  padding: 40px 20px 20px 20px;
+  background-color: #f3f3f3;
+}
+
+.header__inner {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.wrap-circle {
+  width: 190px;
+  height: 190px;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+  background-color: #b9ff66;
+  border: 1px solid #b9ff66;
+}
+
+.wrap-circle:hover {
+  background-color: #f3f3f3;
+  border: 1px solid #191a23;
+}
+
+.circle-inside {
+  width: 170px;
+  height: 170px;
+  border-radius: 50%;
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.5s;
+}
+
+.circle-inside:hover {
+  background: #b9ff66;
+  /* border: 10px solid #fff; */
+}
+
+.header__img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  border: 1px solid #191a23;
+}
+
+.header__name {
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px 0;
+  text-transform: capitalize;
+}
+
+.header__description {
+  font-size: 25px;
+}
+
+.header-contacts p {
+  font-size: 20px;
+}
+
+.header-contacts {
+  display: flex;
+  flex-direction: column;
+  gap: 5px 0;
+  font-style: normal;
+}
+
+.header__menu-list {
+  display: flex;
+  justify-content: center;
+  border-top: 1px solid #b9ff66;
+  background-color: #b9ff66;
+}
+
+.header__menu-link {
+  display: inline-block;
+  padding: 20px 30px;
+  border-bottom: 1px solid transparent;
+}
+
+.header__menu-link:hover {
+  color: #f3f3f3;
+}
+
+.about-me__description {
+  padding: 8px;
+  width: 100%;
+}
+
+.skills__menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+
+.skills__menu-item {
+  padding: 8px;
+  border-radius: 7px;
+  width: 45%;
+  border: 1px solid #191a23;
+  box-shadow: 0 1px 0 0 #191a23;
+  background-color: #b9ff66;
+  margin-bottom: 8px;
+}
+
+.code__body {
+  padding-top: 20px;
+  border: 1px solid #191a23;
+  box-shadow: 0 1px 0 0 #191a23;
+  border-radius: 7px;
+  width: 60%;
+  margin: 0 auto;
+}
+
+.code__description {
+  padding: 8px;
+  margin-bottom: 10px;
+}
+
+.code__description span {
+  font-weight: 500;
+  /* font-style: italic; */
+}
+
+.name-red {
+  color: rgb(255, 0, 64);
+}
+
+.name-violet {
+  color: blueviolet;
+}
+
+.name-blue {
+  color: blue;
+}
+
+.education__body {
+  display: flex;
+  flex-direction: column;
+  gap: 15px 0;
+}
+
+.education__menu-list {
+  list-style: disc;
+  padding-left: 25px;
+}
+
+.education__menu-link {
+  text-decoration: underline;
+  display: inline-block;
+  margin-bottom: 7px;
+}
+
+.languages__menu-list {
+  display: flex;
+  flex-wrap: wrap;
+  column-gap: 20px;
+}
+
+.languages__menu-item {
+  margin-bottom: 8px;
+  padding: 8px;
+  border-radius: 7px;
+  width: 45%;
+  border: 1px solid #191a23;
+  box-shadow: 0 1px 0 0 #191a23;
+}
+
+.footer {
+  background-color: #b9ff66;
+}
+
+.footer-top {
+  padding-bottom: 15px;
+  margin-bottom: 20px;
+  border-bottom: 1px solid #191a23;
+}
+
+.footer__footer-body {
+  display: flex;
+  justify-content: space-between;
+}
+
+.footer-body__soc1als {
+  display: flex;
+  justify-content: space-between;
+  column-gap: 10px;
+}
+
+.footer-body__link:hover {
+  color: #f3f3f3;
+}
+
+.footer__copyright {
+  text-align: end;
+  font-size: 14px;
+}
+
+@media (max-width: 991.98px) {
+  .header-contacts {
+    margin-left: auto;
+  }
+  .header-contacts p {
+    font-size: 16px;
+  }
+  p {
+    font-size: 16px;
+  }
+  body {
+    font-size: 16px;
+  }
+  .code__body {
+    width: 100%;
+  }
+  .section__container {
+    padding: 20px;
+  }
+  .about-me__description {
+    padding: 0;
+  }
+  .code__description {
+    padding: 0;
+  }
+}
+@media (max-width: 767.98px) {
+  .skills__menu-item,
+  .languages__menu-item {
+    width: 100%;
+  }
+  .header-contacts p {
+    font-size: 16px;
+  }
+  p {
+    font-size: 14px;
+  }
+  body {
+    font-size: 14px;
+  }
+  h1 {
+    font-size: 25px;
+  }
+  h2 {
+    font-size: 16px;
+  }
+  .header-contacts {
+    margin-left: 0;
+  }
+  .header__name {
+    width: 100%;
+    text-align: center;
+    margin: 10px auto 15px;
+    gap: 10px;
+  }
+  .header-contacts {
+    flex-direction: row;
+  }
+  .header__menu-link {
+    padding: 15px 20px;
+  }
+  .wrap-circle {
+    width: 180px;
+    height: 180px;
+  }
+  .circle-inside {
+    width: 160px;
+    height: 160px;
+  }
+  .header__img {
+    width: 140px;
+    height: 140px;
+  }
+  .header__description {
+    font-size: 20px;
+  }
+  .footer__copyright {
+    font-size: 10px;
+  }
+  .footer-body__logo img {
+    width: 60px;
+    height: 20px;
+  }
+  .footer-body__link svg {
+    width: 15px;
+    height: 15px;
+  }
+  .footer-body__soc1als {
+    column-gap: 5px;
+  }
+  .footer-top {
+    margin-bottom: 0;
+  }
+}
+@media (max-width: 575.98px) {
+  .header-contacts {
+    flex-direction: column;
+    text-align: center;
+  }
+  .header-contacts p {
+    font-size: 12px;
+  }
+  p {
+    font-size: 14px;
+  }
+  body {
+    font-size: 12px;
+  }
+  h1 {
+    font-size: 18px;
+  }
+  h2 {
+    font-size: 14px;
+    display: block;
+    text-align: center;
+  }
+  .header__description {
+    font-size: 16px;
+  }
+  .header__menu-link {
+    padding: 7px 7px;
+  }
+  .wrap-circle {
+    width: 160px;
+    height: 160px;
+  }
+  .circle-inside {
+    width: 140px;
+    height: 140px;
+  }
+  .header__img {
+    width: 120px;
+    height: 120px;
+  }
+  .section__container {
+    padding: 10px 5px;
+  }
+  .header__menu-list {
+    display: none;
+  }
+  .skills__menu-item {
+    background-color: #f3f3f3;
+  }
+}
