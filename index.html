@@ -44,19 +44,19 @@
     <div class="container">
       <ul class="header__menu-list">
         <li class="header__menu-item">
-          <a href="#about" class="header__menu-link">About me</a>
+          <a href="#about" class="header__menu-link" aria-label="Go to About me section">About me</a>
         </li>
         <li class="header__menu-item">
-          <a href="#skills" class="header__menu-link">Skills</a>
+          <a href="#skills" class="header__menu-link" aria-label="Go to Skills section">Skills</a>
         </li>
         <li class="header__menu-item">
-          <a href="#education" class="header__menu-link">Education</a>
+          <a href="#education" class="header__menu-link" aria-label="Go to Education section">Education</a>
         </li>
         <li class="header__menu-item">
-          <a href="#code" class="header__menu-link">Code Example</a>
+          <a href="#code" class="header__menu-link" aria-label="Go to Code Example section">Code Example</a>
         </li>
         <li class="header__menu-item">
-          <a href="#languages" class="header__menu-link">Languages</a>
+          <a href="#languages" class="header__menu-link" aria-label="Go to Languages section">Languages</a>
         </li>
       </ul>
     </div>
@@ -118,30 +118,30 @@
           <ul class="education__menu-list">
             <li class="education__menu-item">
               Frontend development <a href="https://proweb.uz/uz/courses/web-development"
-                class="education__menu-link">(proweb.uz)</a>
+                class="education__menu-link" aria-label="My education - proweb">(proweb.uz)</a>
             </li>
             <li class="education__menu-item">
               HTML by Alexander Lamkov <a
                 href="https://www.youtube.com/watch?v=yE4Rlp0OeVc&list=PL0MUAHwery4ot0KmgGxlBSB7rXssLeA6h"
-                class="education__menu-link">(youtube.com/@AleksanderLamkov)</a>
+                class="education__menu-link" aria-label="My education - Lamkov">(youtube.com/@AleksanderLamkov)</a>
             </li>
             <li class="education__menu-item">
               CSS by Alexander Lamkov <a
                 href="https://www.youtube.com/watch?v=PEQ3i9q3ez8&list=PL0MUAHwery4o9I7QQVj_RP4ZVpmdx6evz"
-                class="education__menu-link">(youtube.com/@AleksanderLamkov)</a>
+                class="education__menu-link" aria-label="My education - Lamkov">(youtube.com/@AleksanderLamkov)</a>
             </li>
             <li class="education__menu-item">
               JavaScript for Beginners by Alexander Lamkov <a
                 href="https://www.youtube.com/watch?v=nCgFdChjnds&list=PL0MUAHwery4qn4Y27iUxmzC-JiauX7vSL"
-                class="education__menu-link">(youtube.com/@AleksanderLamkov)</a>
+                class="education__menu-link" aria-label="My education - Lamkov">(youtube.com/@AleksanderLamkov)</a>
             </li>
             <li class="education__menu-item">
               JavaScript Manual <a href="https://learn.javascript.ru/first-steps"
-                class="education__menu-link">(learnjavascript.ru)</a>
+                class="education__menu-link" aria-label="My education - learn JS">(learnjavascript.ru)</a>
             </li>
             <li class="education__menu-item">
               RS Schools Course «JavaScript/Front-end. Stage 0» (in progress) <a
-                href="https://rs.school/courses/javascript-ru" class="education__menu-link">(rs.school)</a>
+                href="https://rs.school/courses/javascript-ru" class="education__menu-link" aria-label="My education - RS School">(rs.school)</a>
             </li>
           </ul>
         </div>
@@ -157,7 +157,7 @@
           <pre>
           <code>
             <span class="name-red">function</span> <span class="name-violet">findAverage</span>(array) {
-              <span class="name-red">return</span> array.<span class="name-violet">reduce</span>((acc, num) <span class="name-blue">=></span> {
+              <span class="name-red">return</span> array.<span class="name-violet">reduce</span>((acc, num) <span class="name-blue">= &gt;</span> {
                 <span class="name-red">return</span> acc <span class="name-blue">+</span> num <span class="name-blue">/</span> array.<span class="name-blue">length</span>
               }, <span class="name-blue">0</span>)
             }
@@ -190,17 +190,17 @@
     <div class="footer-top">
       <div class="container">
         <div class="footer__footer-body">
-          <a href="https://rs.school/courses/javascript-ru" class="footer-body__logo">
-            <img src="images/rs-school-logo.svg" alt="Footer-logo" width="95" height="35">
+          <a href="https://rs.school/courses/javascript-ru" class="footer-body__logo" alt="RS School logo">
+            <img src="images/rs-school-logo.svg" alt="RS School logo" width="95" height="35">
           </a>
           <div class="footer-body__soc1als">
-            <a href="https://github.com/ulzirok" class="footer-body__link">
+            <a href="https://github.com/ulzirok" class="footer-body__link" aria-label="Visit my GitHub">
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
                 <path
                   d="M12 0C5.37 0 0 5.37 0 12c0 5.3 3.438 9.8 8.205 11.385.6.11.82-.26.82-.577v-2.234c-3.338.724-4.033-1.416-4.033-1.416-.546-1.386-1.333-1.756-1.333-1.756-1.089-.745.083-.729.083-.729 1.205.085 1.84 1.237 1.84 1.237 1.07 1.834 2.807 1.304 3.492.996.107-.775.42-1.305.763-1.605-2.665-.3-5.466-1.334-5.466-5.933 0-1.31.47-2.38 1.235-3.22-.123-.303-.535-1.523.117-3.176 0 0 1.008-.322 3.3 1.23a11.5 11.5 0 0 1 6 0c2.29-1.552 3.296-1.23 3.296-1.23.654 1.653.242 2.873.12 3.176.77.84 1.233 1.91 1.233 3.22 0 4.61-2.804 5.63-5.475 5.922.432.372.816 1.1.816 2.22v3.293c0 .32.218.694.825.576C20.565 21.795 24 17.295 24 12c0-6.63-5.373-12-12-12z" />
               </svg>
             </a>
-            <a href="mailto:ulzirok@gmail.com" class="footer-body__link">
+            <a href="mailto:ulzirok@gmail.com" class="footer-body__link" aria-label="Send me an email">
               <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" viewBox="0 0 24 24">
                 <path
                   d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8l8 5 8-5v10H4z" />
